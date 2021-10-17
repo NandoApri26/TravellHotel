@@ -1,0 +1,326 @@
+/* Awal Header */
+#Header a{
+    text-decoration: none;
+}
+#Header  .gambar img{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    margin-left: -45px;
+}
+#Header .nm-hotel h1{
+    margin-top: 40px;
+    color: #1C7C99;
+    font-family: poppins;
+    font-weight: bold;
+    text-shadow: 3px 2px 1px grey;
+}
+#Header .nm-hotel h1:hover{
+    margin-top: 40px;
+    color: #11566a;
+    font-family: poppins;
+    font-weight: bold;
+    text-shadow: 3px 2px 1px grey;
+}
+#Header .login button{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    background-color: #1C7C99;
+    font-family: poppins;
+    font-weight: bold;
+    box-shadow: 3px 2px 1px grey;
+}
+#Header .login button:hover{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    color: #1C7C99;
+    background-color: white;
+    font-family: poppins;
+    font-weight: bold;
+    box-shadow: 3px 2px 1px grey;
+}
+#Header .register button{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    border-color: #1C7C99;
+    color: #1C7C99;
+    font-family: poppins;
+    font-weight: bold;
+    box-shadow: 3px 2px 1px grey;
+}
+#Header .register button:hover{
+    margin-top: 40px;
+    width: 100%;
+    height: auto;
+    color: white;
+    background-color: #11566a;
+    font-family: poppins;
+    font-weight: bold;
+    box-shadow: 3px 2px 1px grey;
+}
+/* Akhir Header */
+
+/* Awal Menu */
+#Menu .bg-menu{
+    width: 100%;
+    height: auto;
+    background-color: #1C7C99;
+}
+#Menu h4{
+    margin-top: 10px;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: bold;
+    color: white;
+}
+#Menu h4:hover{
+    margin-top: 10px;
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: bold;
+    color: #11566a;
+}
+/* Akhir Menu */
+
+/* Awal Banner */
+#Banner .gambar img{
+    width: 100%;
+    height: 350px;
+    border-radius: 50px;
+    object-fit: cover;
+}
+#Banner .carousel-indicators {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 15;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-pack: center;
+    justify-content: left;
+    padding-left: 0;
+    margin-right: 15%;
+    margin-left: 6rem;
+    list-style: none;
+  }
+  
+#Banner .carousel-indicators li {
+    box-sizing: content-box;
+    -ms-flex: 0 1 auto;
+    flex: 0 1 auto;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+    margin-right: 3px;
+    margin-left: 3px;
+    text-indent: -999px;
+    cursor: pointer;
+    background-color: white;
+    background-clip: padding-box;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    opacity: .5;
+    transition: opacity 0.6s ease;
+  }
+#Banner .fa-chevron-circle-left{
+    font-size: 50px;
+    margin-left: -10rem;
+    color: #0eb3e6;
+}
+#Banner .fa-chevron-circle-right{
+    font-size: 50px;
+    margin-left: 10rem;
+    color: #0eb3e6;
+}
+/* Akhir Menu */
+
+/* Awal Akomodasi */
+#Akomodasi .bg-akomodasi{
+    background-color: rgb(236, 236, 236);
+}
+#Akomodasi h4{
+    margin-top: 10px;
+    font-family: poppins;
+    font-size: 28px;
+    font-weight: bold;
+    color: #1C7C99;
+}
+#Akomodasi .text h6{
+    font-family: poppins;
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(150, 150, 150);
+}
+#Akomodasi .akomodasi img{
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 15px;
+}
+#Akomodasi .akomodasi h5,
+#Keluarga .villa h5,
+#Keluarga .apartement h5{
+    margin-top: 5px;
+}
+/* Akhir Akomodasi */
+
+/* Awal Keluarga */
+#Keluarga .text h5{
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: bold;
+}
+#Keluarga .text h6{
+    margin-top: 40px;
+    font-family: poppins;
+    font-size: 16px;
+}
+#Keluarga .villa img,
+#Keluarga .apartement img{
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+#Keluarga hr{
+    margin-top: 50px;
+    border: 0.3px;
+    border-color: #1C7C99;
+    border-style: solid;
+}
+/* Akhir Keluarga */
+
+/* Awal Login */
+#Halaman-Login .bg-login,
+#Halaman-Register .bg-register{
+    width: 100%;
+    height: auto;
+    box-shadow: 0 4px 8px 0 grey,
+    0 6px 20px 0 gray;
+    border-radius: 50px;
+}
+#Halaman-Login h1,
+#Halaman-Register h1{
+    color: #1C7C99;
+    font-family: poppins;
+    font-weight: normal;
+}
+#Halaman-Login span,
+#Halaman-Register span{
+    color: #1C7C99;
+    font-family: poppins;
+    font-weight: bold;
+}
+#Halaman-Login img,
+#Halaman-Register img{
+    width: 100%;
+    height: auto;
+}
+#Halaman-Login .login,
+#Halaman-Register .login{
+    margin-top: 100px;
+}
+#Halaman-Login .email,
+#Halaman-Login .password,
+#Halaman-Register .nama,
+#Halaman-Register .email,
+#Halaman-Register .notelp,
+#Halaman-Register .password{
+    font-family: sansita;
+    font-weight: bold;
+    font-size: 18px;
+}
+#Halaman-Login .lp-password{
+    font-family: sansita;
+    /* font-weight: bold; */
+    font-size: 18px;
+    color: blue;
+}
+#Halaman-Login .btn-warning,
+#Halaman-Register .btn-warning{
+    width: 200px;
+    height: auto;
+    font-size: 20px;
+    font-family: sansita;
+    font-weight: bold;
+    border-radius: 30px;
+    background-color: #D7981F;
+    color: white;
+    box-shadow: 3px 2px 1px grey;
+}
+#Halaman-Login .btn-warning:hover,
+#Halaman-Register .btn-warning:hover{
+    font-size: 20px;
+    font-weight: bold;
+    font-family: sansita;
+    border-radius: 30px;
+    background-color: #fdba3e;
+    color: white;
+    box-shadow: 3px 2px 1px grey;
+}
+
+/* Akhir Login */
+
+
+
+
+
+
+/* Awal Footer */
+#Footer .bg-footer{
+    width: 100%;
+    height: auto;
+    background-color: #1C7C99;
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+#Footer ul li{
+    list-style: none;
+    color: white;
+    font-family: poppins;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#Footer ul li:hover{
+    list-style: none;
+    color: #11566a;
+    font-family: poppins;
+    font-weight: bold;
+    margin-top: 10px;
+}
+#Footer .fa-facebook-f,
+#Footer .fa-whatsapp,
+#Footer .fa-instagram{
+    color: white;
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+}
+#Footer .fa-facebook-f:hover,
+#Footer .fa-whatsapp:hover,
+#Footer .fa-instagram:hover{
+    color: #11566a;
+    width: 100%;
+    height: auto;
+    font-size: 25px;
+}
+#Footer hr{
+    border: 0.3px;
+    border-color: white;
+    border-style: solid;
+}
+#Footer .copyright h6{
+    color: white;
+    font-weight: bold;
+    font-family: poppins;
+    margin-left: -40px;
+}
+/*  */
+
+
+
+
